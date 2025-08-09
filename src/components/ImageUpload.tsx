@@ -9,6 +9,8 @@
          <button
            onClick={() => setActiveTab('upload')}
           className={`flex items-center justify-center gap-2 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200 ${
+          }
+   )
 }
 +          className={`flex items-center justify-center gap-1 px-3 py-2 rounded-md text-xs font-medium transition-colors ${
              activeTab === 'upload'
@@ -20,6 +22,7 @@
          <button
            onClick={() => setActiveTab('templates')}
 -          className={`flex items-center justify-center gap-1 px-2 py-1.5 rounded text-xs font-medium transition-colors ${
+}
 }
               ? 'bg-white text-blue-600 shadow-lg transform scale-105'
               : 'text-gray-600 hover:text-gray-800 hover:bg-white/50'
@@ -36,6 +39,7 @@
              activeTab === 'ai'
               ? 'bg-white text-purple-600 shadow-lg transform scale-105'
               : 'text-gray-600 hover:text-gray-800 hover:bg-white/50'
+}
 }
 @@ .. @@
            <button

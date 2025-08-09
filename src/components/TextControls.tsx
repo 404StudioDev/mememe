@@ -10,6 +10,7 @@
            Text Content
          </label>
          <input
+   )
 @@ .. @@
            value={text.content}
            onChange={(e) => updateText({ content: e.target.value })}

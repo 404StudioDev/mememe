@@ -9,7 +9,8 @@
 -        <div className="bg-white rounded-lg shadow-md p-4 border border-gray-200">
 +        <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
            <div className="flex items-center gap-2 mb-3">
-             <ImageIcon className="h-5 w-5 text-blue-600" />
+              )
+  <ImageIcon className="h-5 w-5 text-blue-600" />
 -            <h3 className="text-base font-semibold text-gray-800">Choose Image</h3>
 +            <h3 className="text-lg font-semibold text-gray-800">Choose Image</h3>
            </div>
